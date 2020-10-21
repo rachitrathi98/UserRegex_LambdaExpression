@@ -13,6 +13,7 @@ namespace UserRegex
             Console.WriteLine("Welcome to User Registration Program");
             string fname, lname, email, phoneNo, password;
             string name_pattern, email_pattern, phone_pattern, password_pattern;
+            //Enter the First Name
             while (true)
             {
                 Console.WriteLine("Enter your first name with first letter in capitals ");
@@ -32,6 +33,7 @@ namespace UserRegex
                     Console.WriteLine("Invalid First Name");
                 }
             }
+            //Enter the Last Name
             while (true)
             {
                 Console.WriteLine("Enter your last name(only first letter in CAPS): ");
@@ -52,6 +54,7 @@ namespace UserRegex
                 }
             }
             Console.WriteLine("Your Entered Name is " + fname + " " + lname);
+            //Enter the Email ID
             while (true)
             {
                 Console.WriteLine("Enter your Email-id: ");
@@ -73,6 +76,7 @@ namespace UserRegex
                     }              
                 break;
             }
+            //Enter the phone number
             while (true)
             {
                 Console.WriteLine("Enter the Valid Phone Number: ");
@@ -92,6 +96,7 @@ namespace UserRegex
                     Console.WriteLine("Invalid Phone Number");
                 }
             }
+            //Enter the password
             while (true)
             {
                 Console.WriteLine("Set a password: ");
